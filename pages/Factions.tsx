@@ -45,7 +45,7 @@ function GetDeities(rank: string) {
  * Categorizes and displays deities with text describing each category
  * @returns SimpleContent and GetDeities response wrapped with Card(antd) in section
  */
-export default function DeitiesPage() {
+export default function FactionsPage() {
   return (
     <section>
       <GetCrumbs path={"Teothe3K,Deities"} />

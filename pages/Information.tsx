@@ -7,7 +7,7 @@ import SimpleContent from "@/components/SimpleCon";
  * @tutorial
  * @returns Card(antd) wrapped by section
  */
-export default function CommonLorePage() {
+export default function InformationPage() {
   return (
     <section>
       <GetCrumbs path={"Teothe3K,Common Lore"} />

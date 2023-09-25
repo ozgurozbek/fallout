@@ -3,7 +3,7 @@
 import React from "react";
 import { ConfigProvider, Layout, theme } from "antd";
 import Sidebar from "Comp/SideNav";
-import Dashboard from "Pages/PageDashboard";
+import Dashboard from "Pages/Dashboard";
 
 /**
  * Main App. Sidebar will react.render the Dashboard to update.

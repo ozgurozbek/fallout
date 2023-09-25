@@ -5,15 +5,15 @@ import Sider from "antd/es/layout/Sider";
 
 import type { MenuProps } from "antd";
 
-import CommonLorePage from "Pages/PageCommonLore";
-import DeitiesPage from "Pages/PageDeities";
-import TablesPage from "Pages/PageTables";
-import LocationsPage from "Pages/PageLocations";
-import HomebrewsPage from "Pages/PageHomebrews";
-import PricingPage from "Pages/PageCommonPricing";
-import ToolsPage from "Pages/PageTools";
+import TablesPage from "Pages/Tables";
+import HomebrewsPage from "Pages/Homebrews";
+import PricingPage from "Pages/Pricing";
+import ToolsPage from "Pages/Tools";
 import GetCrumbs from "./NavigationCrumb";
 import SimpleContent from "./SimpleCon";
+import InformationPage from "Pages/Information";
+import EntitiesPage from "Pages/Entities";
+import FactionsPage from "Pages/Factions";
 
 type MenuItem = Required<MenuProps>["items"][number];
 
@@ -27,13 +27,13 @@ const loadPage = (menuItem: any) => {
   let Ele = <></>;
   switch (menuItem.key) {
     case "1":
-      Ele = <CommonLorePage />;
+      Ele = <InformationPage />;
       break;
     case "2":
-      Ele = <LocationsPage />;
+      Ele = <FactionsPage />;
       break;
     case "3":
-      Ele = <DeitiesPage />;
+      Ele = <EntitiesPage />;
       break;
     case "4":
       Ele = <TablesPage />;
