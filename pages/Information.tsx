@@ -10,7 +10,7 @@ import SimpleContent from "@/components/SimpleCon";
 export default function InformationPage() {
   return (
     <section>
-      <GetCrumbs path={"Teothe3K,Common Lore"} />
+      <GetCrumbs path={"Fallout: Istanbul,Common Lore"} />
       <Card bordered={false} className="w-full">
         <SimpleContent
           contentProps={{

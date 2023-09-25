@@ -50,7 +50,7 @@ function GetHomebrews(category: string) {
 export default function HomebrewsPage() {
   return (
     <section>
-      <GetCrumbs path={"Teothe3K,Homebrews"} />
+      <GetCrumbs path={"Fallout: Istanbul,Homebrews"} />
       <Card bordered={false} className="w-full">
         <SimpleContent
           contentProps={{

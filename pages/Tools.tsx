@@ -86,7 +86,7 @@ function GetTableData() {
 export default function ToolsPage() {
   return (
     <section>
-      <GetCrumbs path={"Teothe3K,Tools"} />
+      <GetCrumbs path={"Fallout: Istanbul,Tools"} />
       <Card bordered={false} className="w-full">
         {GetTableData()}
       </Card>

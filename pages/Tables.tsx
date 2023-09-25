@@ -150,7 +150,7 @@ function GetTableData() {
 export default function TablesPage() {
   return (
     <section>
-      <GetCrumbs path={"Teothe3K,Tables"} />
+      <GetCrumbs path={"Fallout: Istanbul,Tables"} />
       <Card bordered={false} className="w-full">
         {GetTableData()}
       </Card>

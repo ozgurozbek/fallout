@@ -48,7 +48,7 @@ function GetDeities(rank: string) {
 export default function FactionsPage() {
   return (
     <section>
-      <GetCrumbs path={"Teothe3K,Deities"} />
+      <GetCrumbs path={"Fallout: Istanbul,Deities"} />
       <Card bordered={false} className="w-full">
         <SimpleContent
           contentProps={{

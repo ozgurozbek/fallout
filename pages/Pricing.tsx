@@ -105,7 +105,7 @@ function GetTableData() {
 export default function PricingPage() {
   return (
     <section>
-      <GetCrumbs path={"Teothe3K,Common Pricing"} />
+      <GetCrumbs path={"Fallout: Istanbul,Common Pricing"} />
       <Card bordered={false} className="w-full">
         {GetTableData()}
       </Card>

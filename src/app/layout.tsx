@@ -5,8 +5,8 @@ import Script from "next/script";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Teothe3K - A 5E Campaign Setting",
-  description: "A Material Plane for TTRPG Systems",
+  title: "Fallout: Istanbul - A Fallout 2d20 Campaign Setting",
+  description: "Reimagined Istanbul for Fallout2d20 the System",
 };
 
 /**
