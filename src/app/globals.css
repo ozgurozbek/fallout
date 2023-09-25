@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  /* Track */
+  .no-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  /* Handle */
+  .no-scrollbar::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+
+  /* Handle on hover */
+  .no-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+}
+
+:root {
+  //--foreground-rgb: 0, 0, 0;
+  //--background-start-rgb: 214, 219, 220;
+  //--background-end-rgb: 255, 255, 255;
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 14, 20, 28;
+  --background-end-rgb: 14, 20, 28;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+    to bottom,
+    rgb(var(--background-start-rgb)),
+    rgb(var(--background-end-rgb))
+  ) !important;
+}
+.ant-layout {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+}
+.ant-menu-dark,
+.ant-layout-sider,
+.ant-layout-sider-trigger,
+.ant-layout-header,
+.ant-layout-footer {
+  background-color: transparent !important;
+}
+.ant-menu-sub {
+  background-color: #141414 !important;
+}
+.ant-menu-item-selected,
+.ant-btn:hover,
+li:active,
+.ant-switch-checked,
+.ant-skeleton-title,
+.ant-skeleton-paragraph > li {
+  background-color: #630436 !important;
+}
+h1,
+h2,
+h3 {
+  color: white !important;
+  text-shadow: 0 0 8px #630436, 0 0 8px #630436, 0 0 8px #630436;
+}
+.ant-card-body {
+  color: white !important;
+}
+.ant-card {
+  background-color: rgba(102, 102, 102, 0.13) !important;
+}
+.ant-btn,
+.ant-input,
+.ant-input-number {
+  color: white !important;
+  border-color: #630436 !important;
+  background-color: rgba(99, 4, 54, 0.2) !important;
+}
+footer > a {
+  color: #630436 !important;
+}
+.ant-empty-description,
+.ant-input-number-input {
+  color: white !important;
+}
+.ant-table {
+  background-color: transparent !important;
+  color: white !important;
+}
+.ant-table-cell-row-hover {
+  color: white !important;
+  background-color: #630436 !important;
+}
+.ant-input-group-addon,
+.ant-input-number-group-addon {
+  color: white !important;
+  background-color: #630436 !important;
+  border-color: #630436 !important;
+}
+::selection {
+  background: #30011a;
+}
+.white-placeholder::placeholder {
+  color: white !important;
+}
