@@ -5,7 +5,6 @@ import Sider from "antd/es/layout/Sider";
 
 import type { MenuProps } from "antd";
 
-import TablesPage from "Pages/Tables";
 import HomebrewsPage from "Pages/Homebrews";
 import PricingPage from "Pages/Pricing";
 import ToolsPage from "Pages/Tools";
@@ -36,15 +35,12 @@ const loadPage = (menuItem: any) => {
       Ele = <EntitiesPage />;
       break;
     case "4":
-      Ele = <TablesPage />;
-      break;
-    case "5":
       Ele = <PricingPage />;
       break;
-    case "6":
+    case "5":
       Ele = <ToolsPage />;
       break;
-    case "7":
+    case "6":
       Ele = <HomebrewsPage />;
       break;
     default:
@@ -156,13 +152,12 @@ export default function Sidebar() {
         theme="dark"
         mode="inline"
         items={[
-          getItem("History", "1", getIcon("CommonLore", collapsed)),
-          getItem("Factions", "2", getIcon("Locations", collapsed)),
-          getItem("Entities", "3", getIcon("Deities", collapsed)),
-          getItem("Tables", "4", getIcon("Tables", collapsed)),
-          getItem("Pricing", "5", getIcon("Pricing", collapsed)),
-          getItem("Tools", "6", getIcon("Tools", collapsed)),
-          getItem("Homebrews", "7", getIcon("Homebrews", collapsed))
+          getItem("General", "1", getIcon("CommonLore", collapsed)),
+          //getItem("Factions", "2", getIcon("Locations", collapsed)),
+          //getItem("Entities", "3", getIcon("Deities", collapsed)),
+          //getItem("Pricing", "4", getIcon("Pricing", collapsed)),
+          //getItem("Tools", "5", getIcon("Tools", collapsed)),
+          //getItem("Homebrews", "6", getIcon("Homebrews", collapsed))
         ]}
       />
     </Sider>
