@@ -8,7 +8,6 @@ import type { MenuProps } from "antd";
 import CommonLorePage from "Pages/PageCommonLore";
 import DeitiesPage from "Pages/PageDeities";
 import TablesPage from "Pages/PageTables";
-import MapOverlayPage from "Pages/PageMapOverlay";
 import LocationsPage from "Pages/PageLocations";
 import HomebrewsPage from "Pages/PageHomebrews";
 import PricingPage from "Pages/PageCommonPricing";
@@ -47,9 +46,6 @@ const loadPage = (menuItem: any) => {
       break;
     case "7":
       Ele = <HomebrewsPage />;
-      break;
-    case "8":
-      Ele = <MapOverlayPage />;
       break;
     default:
       break;
@@ -167,8 +163,7 @@ export default function Sidebar() {
           getItem("Tables", "4", getIcon("Tables", collapsed)),
           getItem("Pricing", "5", getIcon("Pricing", collapsed)),
           getItem("Tools", "6", getIcon("Tools", collapsed)),
-          getItem("Homebrews", "7", getIcon("Homebrews", collapsed)),
-          getItem("Map", "8", getIcon("MapOverlay", collapsed))
+          getItem("Homebrews", "7", getIcon("Homebrews", collapsed))
         ]}
       />
     </Sider>

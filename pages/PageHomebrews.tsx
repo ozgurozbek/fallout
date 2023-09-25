@@ -28,12 +28,12 @@ function GetHomebrews(category: string) {
     if (item[0] === category) {
       if (first) {
         renderedEntries.push(
-          <li className="hover:bg-[#00ff1c] py-4">{item[1]}</li>
+          <li className="hover:bg-[#141414] py-4">{item[1]}</li>
         );
         first = false;
       } else {
         renderedEntries.push(
-          <li className="hover:bg-[#00ff1c] py-4 border-t border-[#e5e7eb]">
+          <li className="hover:bg-[#141414] py-4 border-t border-[#e5e7eb]">
             {item[1]}
           </li>
         );
