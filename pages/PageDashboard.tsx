@@ -89,7 +89,7 @@ export default function Dashboard() {
         . 2016-2023.
       </Footer>
       <div
-        className="w-12 h-12 rounded-full bg-[#630436] hover:bg-[#30011a] fixed bottom-4 right-4 transition-all text-center text-4xl"
+        className="w-12 h-12 rounded-full bg-[#00ff1c] hover:bg-[#004c0a] fixed bottom-4 right-4 transition-all text-center text-4xl"
         onClick={goUp}
       >
         <CaretUpOutlined />

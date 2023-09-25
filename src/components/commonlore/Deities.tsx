@@ -15,7 +15,7 @@ function GetDomainObject(name: string) {
         <Tooltip
           className="float-right"
           placement="left"
-          color={"#630436"}
+          color={"#00ff1c"}
           title={"War"}
         >
           {" "}
@@ -35,7 +35,7 @@ function GetDomainObject(name: string) {
         <Tooltip
           className="float-right"
           placement="left"
-          color={"#630436"}
+          color={"#00ff1c"}
           title={"Nature"}
         >
           {" "}
@@ -55,7 +55,7 @@ function GetDomainObject(name: string) {
         <Tooltip
           className="float-right"
           placement="left"
-          color={"#630436"}
+          color={"#00ff1c"}
           title={"Trickery"}
         >
           {" "}
@@ -75,7 +75,7 @@ function GetDomainObject(name: string) {
         <Tooltip
           className="float-right"
           placement="left"
-          color={"#630436"}
+          color={"#00ff1c"}
           title={"Fundamental"}
         >
           {" "}
@@ -95,7 +95,7 @@ function GetDomainObject(name: string) {
         <Tooltip
           className="float-right"
           placement="left"
-          color={"#630436"}
+          color={"#00ff1c"}
           title={"Knowledge"}
         >
           {" "}
@@ -115,7 +115,7 @@ function GetDomainObject(name: string) {
         <Tooltip
           className="float-right"
           placement="left"
-          color={"#630436"}
+          color={"#00ff1c"}
           title={"Tempest"}
         >
           {" "}
@@ -135,7 +135,7 @@ function GetDomainObject(name: string) {
         <Tooltip
           className="float-right"
           placement="left"
-          color={"#630436"}
+          color={"#00ff1c"}
           title={"Life"}
         >
           {" "}
@@ -155,7 +155,7 @@ function GetDomainObject(name: string) {
         <Tooltip
           className="float-right"
           placement="left"
-          color={"#630436"}
+          color={"#00ff1c"}
           title={"Light"}
         >
           {" "}
@@ -175,7 +175,7 @@ function GetDomainObject(name: string) {
         <Tooltip
           className="float-right"
           placement="left"
-          color={"#630436"}
+          color={"#00ff1c"}
           title={"Death"}
         >
           {" "}

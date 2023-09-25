@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <head>
-        <meta name="theme-color" content="#630436" />
+        <meta name="theme-color" content="#00ff1c" />
         <meta name="apple-mobile-web-app-status-bar" content="#90cdf4" />
         <Script src="https://mozilla.github.io/pdf.js/build/pdf.js"></Script>
         <Script src="https://booksjs.github.io/books/js/books.min.js"></Script>

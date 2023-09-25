@@ -2,8 +2,8 @@
   "name": "Teothe",
   "short_name": "Teothe",
   "start_url": "/teothe/",
-  "background_color": "#630436",
-  "theme_color": "#630436",
+  "background_color": "#00ff1c",
+  "theme_color": "#00ff1c",
   "display": "standalone",
   "orientation": "landscape",
   "icons": [

@@ -59,7 +59,7 @@ export default function MapOverlayPage() {
             title={
               "Bottom left has the scale for the map with a single unit displaying a day in travel pace (8hrs)"
             }
-            color={"#630436"}
+            color={"#00ff1c"}
           >
             <Button
               onClick={() => {
@@ -113,7 +113,7 @@ export default function MapOverlayPage() {
             title={
               "Fear 😱, Joy 😊, Sorrow 😔, Love 😍, Anger 😠, Hope 🥺, Anxiety 😵, Awe 😨, Desire 😳, Abandonment 😒"
             }
-            color={"#630436"}
+            color={"#00ff1c"}
           >
             <Button
               onClick={() => {
@@ -148,7 +148,7 @@ export default function MapOverlayPage() {
             title={
               "Red: Woven Route, Blue: Wavekeep Route, Purple: Elkian Route"
             }
-            color={"#630436"}
+            color={"#00ff1c"}
           >
             <Button
               onClick={() => {

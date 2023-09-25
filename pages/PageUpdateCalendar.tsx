@@ -223,7 +223,7 @@ export default function CalendarNoteUpdatePage() {
         showCount={true}
         placeholder="Enter session note here. Make sure it is less than a 1000 characters!"
         value={textInputText}
-        style={{ backgroundColor: "transparent", borderColor: "#630436" }}
+        style={{ backgroundColor: "transparent", borderColor: "#00ff1c" }}
         onChange={(e) => setTextInputText(e.target.value)}
       />
       <Divider style={{ borderColor: "white" }} />
