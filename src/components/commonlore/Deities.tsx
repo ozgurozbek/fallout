@@ -222,7 +222,7 @@ export default function Deity({
   descriptionProps,
 }: {
   imageSrc: string;
-  descriptionProps: { title: string; body: string; domain: string };
+  descriptionProps: { title: string; body: string};
 }) {
   return (
     <div className="inline-flex w-full py-4">
@@ -233,11 +233,10 @@ export default function Deity({
         draggable={false}
         onClick={() => window.open(imageSrc, "_blank")}
       />
-      <div className="px-4 w-[75%]">
+      <div className="px-4 w-full">
         <Title level={2}>{descriptionProps.title}</Title>
         <p>{descriptionProps.body}</p>
       </div>
-      <i className="w-[15%] ml-[auto]">{GetDomains(descriptionProps.domain)}</i>
     </div>
   );
 }

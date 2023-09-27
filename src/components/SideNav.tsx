@@ -153,8 +153,8 @@ export default function Sidebar() {
         mode="inline"
         items={[
           getItem("General", "1", getIcon("CommonLore", collapsed)),
-          //getItem("Factions", "2", getIcon("Locations", collapsed)),
-          //getItem("Entities", "3", getIcon("Deities", collapsed)),
+          getItem("Factions", "2", getIcon("Locations", collapsed)),
+          getItem("Entities", "3", getIcon("Deities", collapsed)),
           //getItem("Pricing", "4", getIcon("Pricing", collapsed)),
           //getItem("Tools", "5", getIcon("Tools", collapsed)),
           //getItem("Homebrews", "6", getIcon("Homebrews", collapsed))
