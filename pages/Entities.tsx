@@ -10,97 +10,105 @@ export default function EntitiesPage() {
         <SimpleContent
           contentProps={{
             title: "Entities",
+            text: ["Art by Midjourney AI, except Sivaslılar and Euro."]
           }}
         />
         <Deity
-          imageSrc={"./Entities/Temp.png"}
+          imageSrc={"./Entities/Ghoul.png"}
           descriptionProps={{
             title: "Ghouls",
             body: "Friendly or feral, with a glowing variant. They speak Common.",
           }}
         />
         <Deity
-          imageSrc={"./Entities/Temp.png"}
+          imageSrc={"./Entities/Mutant.png"}
           descriptionProps={{
             title: "Nightkin",
             body: "Super Mutants. They speak Common.",
           }}
         />
         <Deity
-          imageSrc={"./Entities/Temp.png"}
+          imageSrc={"./Entities/Bullz.png"}
           descriptionProps={{
             title: "Bullz",
             body: "Mutated animalistic humanoids. They speak Common.",
           }}
         />
         <Deity
-          imageSrc={"./Entities/Temp.png"}
+          imageSrc={"./Entities/Turk.png"}
           descriptionProps={{
             title: "Turks",
             body: "Main inhabitants of Istanbul. They speak Common.",
           }}
         />
         <Deity
-          imageSrc={"./Entities/Temp.png"}
+          imageSrc={"./Entities/Batu.jpg"}
           descriptionProps={{
             title: "Sivaslılar",
             body: "Kabadayi culture lives on, they also speak Sivas' Cant. or Common.",
           }}
         />
         <Deity
-          imageSrc={"./Entities/Temp.png"}
+          imageSrc={"./Entities/Aze.png"}
           descriptionProps={{
-            title: "Azeriler",
+            title: "Azeris",
             body: "Pre-war historic researchers and architects. They speak a dialect of Common.",
           }}
         />
         <Deity
-          imageSrc={"./Entities/Temp.png"}
+          imageSrc={"./Entities/Southerner.png"}
           descriptionProps={{
             title: "Southerners",
             body: "Pre-war weapon scientists and fanatics. They speak a dialect of Common.",
           }}
         />
         <Deity
-          imageSrc={"./Entities/Temp.png"}
+          imageSrc={"./Entities/Enclave.png"}
           descriptionProps={{
             title: "The Enclave",
             body: "Pre-war US Government, Americans. They speak English.",
           }}
         />
         <Deity
-          imageSrc={"./Entities/Temp.png"}
+          imageSrc={"./Entities/China.png"}
           descriptionProps={{
-            title: "Chinamen",
-            body: "Pre-war Chinese Government, Asian community. They speak Japanese because your DM knows Japanese.",
+            title: "Asia",
+            body: "Ideals heavily influenced by the pre-war Chinese Government, Asian community. They mostly speak Japanese (because I know it), some English, and some Euro.",
           }}
         />
         <Deity
-          imageSrc={"./Entities/Temp.png"}
+          imageSrc={"./Entities/Russian.png"}
           descriptionProps={{
             title: "Slavs",
             body: "Pre-war Soviet Government, Russians. They speak Euro.",
           }}
         />
         <Deity
-          imageSrc={"./Entities/Temp.png"}
+          imageSrc={"./Entities/Alkan.jpg"}
           descriptionProps={{
             title: "Euro",
             body: "Pre-war European Commonwealth. They speak Euro.",
           }}
         />
         <Deity
-          imageSrc={"./Entities/Temp.png"}
+          imageSrc={"./Entities/Alien.png"}
           descriptionProps={{
             title: "Aliens",
             body: "They exist",
           }}
         />
         <Deity
-          imageSrc={"./Entities/Temp.png"}
+          imageSrc={"./Entities/Psycho.png"}
           descriptionProps={{
-            title: "Ghosts",
-            body: "They also exist",
+            title: "Cyberpsychos",
+            body: "People obsessed with enhancing their bodies with tech.",
+          }}
+        />
+        <Deity
+          imageSrc={"./Entities/Dweller.png"}
+          descriptionProps={{
+            title: "Dwellers",
+            body: "Vault dwellers.",
           }}
         />
       </Card>

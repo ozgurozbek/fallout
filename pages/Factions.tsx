@@ -11,6 +11,7 @@ export default function FactionsPage() {
         <SimpleContent
           contentProps={{
             title: "Factions",
+            text: ["Art by Bethesda, Fallout Shelter"]
           }}
         />
         <Deity
