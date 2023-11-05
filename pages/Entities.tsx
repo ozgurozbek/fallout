@@ -42,7 +42,7 @@ export default function EntitiesPage() {
           }}
         />
         <Deity
-          imageSrc={"./Entities/Batu.jpg"}
+          imageSrc={"./Entities/Batu.png"}
           descriptionProps={{
             title: "Sivaslılar",
             body: "Kabadayi culture lives on, they also speak Sivas' Cant. or Common.",
